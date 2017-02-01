@@ -1,0 +1,161 @@
+$main-color: #4768D7;
+$main-font: monospace;
+
+header {
+  text-align: center;
+  font-family: $main-font;
+  position: relative;
+
+  h1 {
+    color: $main-color;
+  }
+}
+
+a {
+  color: $main-color;
+}
+
+.navbar {
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0;
+
+  ul {
+    list-style-type: none;
+    padding: 13px;
+    border: 1px solid $main-color;
+
+    li {
+      display: inline-block;
+      padding: 0;
+
+      .nav-link {
+        color: $main-color;
+        font-family: $main-font;
+        padding: 15px;
+        margin-right: 5px;
+        text-decoration: none;
+
+        &:hover {
+          border-right: 1px solid $main-color;
+          border-left: 1px solid $main-color;
+          background: none;
+        }
+      }
+    }
+  }
+}
+
+.main {
+  border: 1px solid $main-color;
+  font-family: $main-font;
+  padding: 20px;
+  width: 70%;
+  left: 13%;
+  margin-bottom: 10px;
+  user-select: none;
+  position: relative;
+  top: 100px;
+
+  p {
+    color: $main-color;
+
+    &:hover {
+      text-decoration: underline;
+      cursor: none;
+    }
+  }
+  
+  h2 {
+    color: $main-color;
+    text-decoration: underline;
+    
+    &:after {
+      content: ':';
+    }
+
+  }
+
+  ul {
+
+    li {
+      font-family: $main-font;
+      color: $main-color;
+    }
+  }
+
+}
+  
+  .btn {
+    padding: 10px;
+    background-color: #C5810C;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #FFB10E;
+
+    &:hover {
+      background-color: #78500C;
+      color: #fff;
+      text-decoration: underline;
+    }
+  }
+
+  .card {
+    position: relative;
+    width: 34.12%;
+    height: 200px;
+    left: 13%;
+    top: 6rem;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 0;
+    margin-right: 45px;
+
+    .card_front {
+      border: 1px solid $main-color;
+      position: absolute;
+      width: 100%;
+      padding: 10px;
+      font-family: $main-font;
+      transition: all 0.3s;
+      user-select: none;
+      backface-visibility: hidden;
+      color: $main-color;
+
+      h4 {
+        text-align: center;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .card_back {
+      transform: rotateY(-180deg);
+      @extend .card_front;
+
+      h4 {
+        text-align: left;
+      }
+
+      p {
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .card_click {
+
+    .card_front {
+      transform: rotateY(-180deg);
+    }
+
+    .card_back {
+      transform: rotateY(0);
+    }
+  }
