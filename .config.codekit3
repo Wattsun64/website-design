@@ -9,18 +9,6 @@
 	],
 "creatorBuild": "25504",
 "files": {
-	"\/about.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/about.html",
-		"oF": 0
-		},
-	"\/another.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/another.html",
-		"oF": 0
-		},
 	"\/bower.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -6185,68 +6173,6 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/smoothState.js-master\/tests\/views\/submit.html",
 		"oF": 0
-		},
-	"\/general-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/general-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/general.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/general-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/main-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/main.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/main.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/sample.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/sample.txt",
-		"oF": 0
-		},
-	"\/simple.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/simple.html",
-		"oF": 0
-		},
-	"\/velocity.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/velocity.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		}
 	},
 "hooks": [
