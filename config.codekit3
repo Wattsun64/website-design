@@ -6253,6 +6253,12 @@
 		"oA": 2,
 		"oAP": "\/Test.txt",
 		"oF": 0
+		},
+	"\/wattsun.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wattsun.txt",
+		"oF": 0
 		}
 	},
 "hooks": [
